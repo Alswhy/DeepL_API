@@ -3,7 +3,7 @@ import requests
 url = "http://127.0.0.1:8000/translate/"
 
 # 사용자로부터 번역할 텍스트와 목표 언어 코드 입력 받기
-text_to_translate = input("텍스트를 입력: ")
+text_to_translate = input("텍스트 입력: ")
 target_lang = input("번역할 언어 코드 입력 (예: 독일어 = 'DE', 프랑스어 = 'FR' 등): ")
 
 data = {
